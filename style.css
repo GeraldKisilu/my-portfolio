@@ -1,13 +1,33 @@
 h1,h2{
-    background-color: rgb(245, 248, 240);
+    background-color: rgb(248, 253, 255);
 }
+h1{
+    color: #e4905f;
+}
+
 body{
-    background-color: rgb(198, 216, 212);
-    margin: 0%;
-    padding: 0%;
-    background: #ccc;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 100;
 }
+h2 {
+    background-color: rgb(248, 253, 255);
+    color: #e4905f;
+    margin: 0%;
+    border: 0%;
+}
+h2{
+    margin-right: 10px;
+    padding-right: 10px;
+}
+p{
+    font-size: large;
+    font-style: normal;
+    size: 0cm;
+    font-weight: lighter;
+    color: black;
+}
+
+
 .navbar ul{
     list-style: none;
     background: 663366;
@@ -20,8 +40,8 @@ body{
 }
 .navbar a{
     text-decoration: none;
-    color: #1b6181;
-    width: 100px;
+    color: #e4905f;
+    width: 200px;
     display: block;
     padding: 25px 20px;
     font-size: 15px;
@@ -31,5 +51,49 @@ body{
 
 }
 .navbar a:hover{
-    background: rgb(244, 244, 247);
+    background: rgb(129, 72, 19);
+}
+/*target the div tag*/
+.image-container{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+/*target the image insid the div*/
+.image-container-image{
+    width: 100px;
+    height: 100%;
+}
+.fa-square-instagram{
+    font-size: 35px;
+    color: rgb(226, 13, 49);
+    width: 100px;
+    height: 50px;
+}
+.fa-whatsapp{
+    font-size: 35px;
+    color: green;
+    width: 100px;
+    height: 50px;
+}
+.fa-linkedin{
+    font-size: 35px;
+    color: blue;
+    width: 100px;
+    height: 50px;
+
+}
+.fa-github{
+    font-size: 35px;
+    color: black;
+    width: 100px;
+    height: 50px;
+
+}
+.fa-chrome{
+    font-size: 35px;
+    color: gold;
+    width: 100px;
+    height: 50px;
+
 }
